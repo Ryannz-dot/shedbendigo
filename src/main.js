@@ -13,7 +13,8 @@ document.querySelector('#root').innerHTML = `
         <nav class="nav">
           <a href="#services">Services</a>
           <a href="#about">About</a>
-          <a href="#gallery">Gallery</a>
+          <a href="#process">Process</a>
+          <a href="#areas">Service Areas</a>
           <a href="#contact" class="cta-button">Get Quote</a>
         </nav>
       </div>
@@ -22,42 +23,121 @@ document.querySelector('#root').innerHTML = `
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <h1>Custom Steel Sheds in Bendigo, Victoria</h1>
-        <p>Professional shed construction with premium Australian-made materials. Licensed experts serving Bendigo and surrounding areas.</p>
-        <div class="hero-buttons">
-          <button class="btn-primary" onclick="scrollToContact()">Get Free Quote</button>
-          <button class="btn-secondary" onclick="scrollToServices()">View Services</button>
+        <div class="hero-text">
+          <h1>Custom Steel Sheds in Bendigo, Victoria 3550</h1>
+          <p class="hero-subtitle">Premium Australian-made steel buildings designed for Bendigo's unique conditions</p>
+          
+          <div class="hero-features">
+            <div class="hero-feature">
+              <div class="feature-icon">⚡</div>
+              <div>
+                <h4>Fast Installation</h4>
+                <p>2-4 week completion</p>
+              </div>
+            </div>
+            <div class="hero-feature">
+              <div class="feature-icon">🏆</div>
+              <div>
+                <h4>Australian Standards</h4>
+                <p>BlueScope steel construction</p>
+              </div>
+            </div>
+            <div class="hero-feature">
+              <div class="feature-icon">👥</div>
+              <div>
+                <h4>Local Experts</h4>
+                <p>Bendigo's trusted builders</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="hero-buttons">
+            <button class="btn-primary" onclick="scrollToContact()">Get Your Free Quote Today</button>
+            <button class="btn-secondary" onclick="scrollToServices()">View Services</button>
+          </div>
         </div>
-      </div>
-      <div class="hero-image">
-        <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Custom steel shed construction in Bendigo" />
+        <div class="hero-image">
+          <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Custom steel shed construction in Bendigo" />
+        </div>
       </div>
     </section>
 
     <!-- Services Section -->
     <section id="services" class="services">
       <div class="container">
-        <h2>Our Shed Construction Services</h2>
+        <h2>Our Steel Shed Services</h2>
         <div class="services-grid">
           <div class="service-card">
-            <div class="service-icon">🏭</div>
-            <h3>Custom Steel Sheds</h3>
-            <p>Tailored shed designs to meet your specific requirements. From small storage sheds to large industrial buildings.</p>
-          </div>
-          <div class="service-card">
-            <div class="service-icon">🚜</div>
-            <h3>Agricultural Sheds</h3>
-            <p>Purpose-built farm buildings for machinery storage, livestock housing, and crop protection.</p>
+            <div class="service-icon">🏠</div>
+            <h3>Residential Sheds</h3>
+            <p>Custom storage solutions for Bendigo homes</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
           </div>
           <div class="service-card">
             <div class="service-icon">🏢</div>
             <h3>Commercial Buildings</h3>
-            <p>Industrial-grade commercial structures designed for durability and functionality.</p>
+            <p>Industrial-grade structures for businesses</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🚜</div>
+            <h3>Agricultural Sheds</h3>
+            <p>Farm buildings and livestock shelters</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
           </div>
           <div class="service-card">
             <div class="service-icon">🔧</div>
             <h3>Workshop Spaces</h3>
-            <p>Professional workshop buildings with proper ventilation, lighting, and electrical provisions.</p>
+            <p>Professional hobby and work areas</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">⚙️</div>
+            <h3>Machinery Storage</h3>
+            <p>Heavy equipment protection facilities</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🌾</div>
+            <h3>Hay Storage</h3>
+            <p>Weather-resistant feed storage</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🚗</div>
+            <h3>Vehicle Garages</h3>
+            <p>Car and truck protection structures</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">📦</div>
+            <h3>Retail Storage</h3>
+            <p>Commercial inventory facilities</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🏭</div>
+            <h3>Manufacturing Units</h3>
+            <p>Industrial production spaces</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🐄</div>
+            <h3>Livestock Shelters</h3>
+            <p>Animal protection structures</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🌱</div>
+            <h3>Garden Sheds</h3>
+            <p>Compact outdoor storage solutions</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">🏗️</div>
+            <h3>Multi-Purpose Buildings</h3>
+            <p>Versatile customizable structures</p>
+            <a href="mailto:info@bestshedsbendigo.com" class="service-cta">Email Now</a>
           </div>
         </div>
       </div>
@@ -66,71 +146,116 @@ document.querySelector('#root').innerHTML = `
     <!-- About Section -->
     <section id="about" class="about">
       <div class="container">
+        <h2>Why Choose Best Sheds Bendigo</h2>
         <div class="about-content">
           <div class="about-text">
-            <h2>Why Choose Best Sheds Bendigo?</h2>
-            <div class="features">
-              <div class="feature">
-                <span class="feature-icon">✓</span>
-                <div>
-                  <h4>Licensed & Insured</h4>
-                  <p>Fully licensed builders with comprehensive insurance coverage</p>
-                </div>
-              </div>
-              <div class="feature">
-                <span class="feature-icon">✓</span>
-                <div>
-                  <h4>Australian Made Materials</h4>
-                  <p>Premium quality steel and materials sourced from trusted Australian suppliers</p>
-                </div>
-              </div>
-              <div class="feature">
-                <span class="feature-icon">✓</span>
-                <div>
-                  <h4>Local Expertise</h4>
-                  <p>Deep understanding of Bendigo's climate and building requirements</p>
-                </div>
-              </div>
-              <div class="feature">
-                <span class="feature-icon">✓</span>
-                <div>
-                  <h4>Full Service</h4>
-                  <p>From permits to completion - we handle every aspect of your project</p>
-                </div>
+            <p class="about-intro">When you need reliable, high-quality shed solutions in Bendigo, Best Sheds Bendigo stands as your premier destination for custom steel buildings that withstand Victoria's demanding weather conditions. Our locally-focused team specializes in delivering exceptional shed construction services throughout Bendigo and surrounding communities, combining decades of manufacturing experience with personalized customer service that puts your needs first.</p>
+            
+            <p>Best Sheds Bendigo offers comprehensive shed solutions for residential, commercial, and rural applications across the greater Bendigo region. Whether you're seeking a simple garden storage solution or a complex commercial facility, our expert team designs and manufactures custom steel buildings that meet your exact specifications while exceeding Australian engineering standards.</p>
+            
+            <div class="about-sections">
+              <div class="about-section">
+                <h3>Custom Shed Design and Manufacturing in Bendigo</h3>
+                <h4>Tailored Solutions for Every Property</h4>
+                <p>Our Bendigo shed specialists understand that every property presents unique challenges and opportunities. From compact residential lots in central Bendigo to expansive rural properties in surrounding areas, we create custom designs that maximize your available space while meeting local council requirements and building codes.</p>
+                
+                <h4>Premium Australian Steel Construction</h4>
+                <p>Best Sheds Bendigo exclusively uses high-grade Australian BlueScope steel in all our constructions, ensuring your investment withstands Bendigo's variable climate conditions. Our steel components are precision-manufactured to exact specifications, providing superior strength and longevity compared to standard flat-pack alternatives available in the market.</p>
+                
+                <h4>Complete Design-to-Delivery Service</h4>
+                <p>From initial consultation through final installation, our Bendigo team manages every aspect of your shed project. We handle council permits, site preparation assessments, and coordinate all trades required for your build, eliminating the stress and complexity typically associated with construction projects.</p>
               </div>
             </div>
-          </div>
-          <div class="about-image">
-            <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Professional shed construction team" />
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="gallery">
+    <!-- Process Section -->
+    <section id="process" class="process">
       <div class="container">
-        <h2>Recent Projects</h2>
-        <div class="gallery-grid">
-          <div class="gallery-item">
-            <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Custom steel shed project" />
-            <div class="gallery-overlay">
-              <h4>Custom Storage Shed</h4>
-              <p>Residential project in Bendigo</p>
+        <h2>Our Construction Process</h2>
+        <div class="process-steps">
+          <div class="process-step">
+            <div class="step-number">1</div>
+            <div class="step-content">
+              <h3>Initial Consultation and Site Assessment</h3>
+              <p>Every Best Sheds Bendigo project begins with a thorough consultation where our experts assess your property, discuss your requirements, and provide professional recommendations.</p>
             </div>
           </div>
-          <div class="gallery-item">
-            <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Agricultural shed construction" />
-            <div class="gallery-overlay">
-              <h4>Agricultural Building</h4>
-              <p>Farm storage facility</p>
+          <div class="process-step">
+            <div class="step-number">2</div>
+            <div class="step-content">
+              <h3>Custom Design Development</h3>
+              <p>Using advanced design software, our Bendigo team creates detailed plans that incorporate your specific requirements while optimizing structural integrity and cost-effectiveness.</p>
             </div>
           </div>
-          <div class="gallery-item">
-            <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Commercial shed building" />
-            <div class="gallery-overlay">
-              <h4>Commercial Workshop</h4>
-              <p>Industrial facility</p>
+          <div class="process-step">
+            <div class="step-number">3</div>
+            <div class="step-content">
+              <h3>Professional Installation</h3>
+              <p>Our certified installation teams bring years of experience to every Bendigo project, coordinating all aspects of construction from foundation preparation through final inspections.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="emergency-service">
+          <h3>Emergency Shed Services</h3>
+          <p>Need urgent shed repairs or emergency construction? Our Bendigo team provides rapid response services for critical situations affecting your property or business operations.</p>
+          <a href="mailto:info@bestshedsbendigo.com" class="btn-emergency">Emergency Email Now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Areas Section -->
+    <section id="areas" class="service-areas">
+      <div class="container">
+        <h2>Our Bendigo Service Areas</h2>
+        <p class="areas-intro">Best Sheds Bendigo proudly serves the entire greater Bendigo region, providing professional shed construction services to:</p>
+        
+        <div class="areas-grid">
+          <div class="area-item">Central Bendigo</div>
+          <div class="area-item">Eaglehawk</div>
+          <div class="area-item">Kangaroo Flat</div>
+          <div class="area-item">Strathfieldsaye</div>
+          <div class="area-item">Golden Square</div>
+          <div class="area-item">Epsom</div>
+          <div class="area-item">Long Gully</div>
+          <div class="area-item">Maiden Gully</div>
+          <div class="area-item">White Hills</div>
+          <div class="area-item">Flora Hill</div>
+          <div class="area-item">Quarry Hill</div>
+          <div class="area-item">East Bendigo</div>
+        </div>
+        
+        <p class="service-radius">Our service radius extends 50 kilometers from Bendigo, ensuring comprehensive coverage for surrounding communities and rural properties requiring specialized shed solutions.</p>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+      <div class="container">
+        <h2>What Our Bendigo Customers Say</h2>
+        <div class="testimonials-grid">
+          <div class="testimonial">
+            <p>"Outstanding quality and service. Our new workshop shed exceeded expectations!"</p>
+            <div class="testimonial-author">
+              <strong>Sarah Mitchell</strong>
+              <span>Eaglehawk</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>"Professional team, fair pricing, and excellent workmanship. Highly recommended!"</p>
+            <div class="testimonial-author">
+              <strong>John Thompson</strong>
+              <span>Kangaroo Flat</span>
+            </div>
+          </div>
+          <div class="testimonial">
+            <p>"From design to installation, Best Sheds delivered exactly what we needed."</p>
+            <div class="testimonial-author">
+              <strong>Maria Rodriguez</strong>
+              <span>Central Bendigo</span>
             </div>
           </div>
         </div>
@@ -151,8 +276,12 @@ document.querySelector('#root').innerHTML = `
             <p>Construction timelines depend on project complexity and size, but most residential sheds are completed within 2-4 weeks from permit approval. Commercial projects may require additional time based on specific requirements and site conditions.</p>
           </div>
           <div class="faq-item">
-            <h3>Do you provide warranties on your shed construction?</h3>
-            <p>Yes, we provide comprehensive warranties on all our work, including structural warranties and material guarantees. Our Australian-made steel comes with manufacturer warranties for added peace of mind.</p>
+            <h3>Can sheds be customized for specific uses?</h3>
+            <p>Absolutely! We specialize in custom designs tailored to your specific needs, whether it's agricultural storage, commercial workshops, or residential applications. Our team works with you to create the perfect solution.</p>
+          </div>
+          <div class="faq-item">
+            <h3>What warranty coverage is provided?</h3>
+            <p>We provide comprehensive warranties on all our work, including structural warranties and material guarantees. Our Australian-made BlueScope steel comes with manufacturer warranties for added peace of mind.</p>
           </div>
         </div>
       </div>
@@ -161,10 +290,15 @@ document.querySelector('#root').innerHTML = `
     <!-- Contact Section -->
     <section id="contact" class="contact">
       <div class="container">
-        <h2>Get Your Free Quote Today</h2>
+        <h2>Contact Best Sheds Bendigo Today</h2>
+        <p class="contact-intro">Ready to transform your property with a premium shed solution? Best Sheds Bendigo is here to help you create the perfect building for your needs. Our expert team provides complimentary consultations and detailed quotes for all projects throughout the Bendigo region.</p>
+        
         <div class="contact-content">
           <div class="contact-info">
-            <h3>Contact Best Sheds Bendigo</h3>
+            <h3>Get Your Free Quote</h3>
+            <p class="contact-subtitle">Professional Service You Can Trust</p>
+            <p class="contact-subtitle">Serving Bendigo & Surrounding Areas</p>
+            
             <div class="contact-details">
               <div class="contact-item">
                 <span class="contact-icon">📍</span>
@@ -174,17 +308,24 @@ document.querySelector('#root').innerHTML = `
                 </div>
               </div>
               <div class="contact-item">
-                <span class="contact-icon">🕒</span>
+                <span class="contact-icon">📧</span>
                 <div>
-                  <h4>Business Hours</h4>
-                  <p>Monday - Friday: 7:00 AM - 6:00 PM<br>Saturday: 8:00 AM - 4:00 PM</p>
+                  <h4>Email</h4>
+                  <p><a href="mailto:info@bestshedsbendigo.com">info@bestshedsbendigo.com</a></p>
                 </div>
               </div>
               <div class="contact-item">
-                <span class="contact-icon">⭐</span>
+                <span class="contact-icon">🏆</span>
                 <div>
-                  <h4>Customer Rating</h4>
-                  <p>4.9/5 stars from 127+ reviews</p>
+                  <h4>Professional Consultation</h4>
+                  <p>Available for all projects</p>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon">✅</span>
+                <div>
+                  <h4>Licensed & Insured</h4>
+                  <p>Fully certified builders</p>
                 </div>
               </div>
             </div>
@@ -204,6 +345,25 @@ document.querySelector('#root').innerHTML = `
                 <input type="tel" id="phone" name="phone">
               </div>
               <div class="form-group">
+                <label for="location">Location</label>
+                <select id="location" name="location">
+                  <option value="">Select your area</option>
+                  <option value="central-bendigo">Central Bendigo</option>
+                  <option value="eaglehawk">Eaglehawk</option>
+                  <option value="kangaroo-flat">Kangaroo Flat</option>
+                  <option value="strathfieldsaye">Strathfieldsaye</option>
+                  <option value="golden-square">Golden Square</option>
+                  <option value="epsom">Epsom</option>
+                  <option value="long-gully">Long Gully</option>
+                  <option value="maiden-gully">Maiden Gully</option>
+                  <option value="white-hills">White Hills</option>
+                  <option value="flora-hill">Flora Hill</option>
+                  <option value="quarry-hill">Quarry Hill</option>
+                  <option value="east-bendigo">East Bendigo</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
                 <label for="project">Project Type</label>
                 <select id="project" name="project">
                   <option value="">Select project type</option>
@@ -211,12 +371,20 @@ document.querySelector('#root').innerHTML = `
                   <option value="commercial">Commercial Building</option>
                   <option value="agricultural">Agricultural Shed</option>
                   <option value="workshop">Workshop Space</option>
+                  <option value="machinery">Machinery Storage</option>
+                  <option value="hay">Hay Storage</option>
+                  <option value="vehicle">Vehicle Garage</option>
+                  <option value="retail">Retail Storage</option>
+                  <option value="manufacturing">Manufacturing Unit</option>
+                  <option value="livestock">Livestock Shelter</option>
+                  <option value="garden">Garden Shed</option>
+                  <option value="multi-purpose">Multi-Purpose Building</option>
                   <option value="other">Other</option>
                 </select>
               </div>
               <div class="form-group">
                 <label for="message">Project Details</label>
-                <textarea id="message" name="message" rows="4" placeholder="Tell us about your shed requirements..."></textarea>
+                <textarea id="message" name="message" rows="4" placeholder="Tell us about your shed requirements, dimensions, and any specific needs..."></textarea>
               </div>
               <button type="submit" class="btn-primary">Request Free Quote</button>
             </form>
@@ -231,29 +399,36 @@ document.querySelector('#root').innerHTML = `
         <div class="footer-content">
           <div class="footer-section">
             <h3>Best Sheds Bendigo</h3>
-            <p>Premium custom steel shed construction serving Bendigo, Victoria and surrounding areas.</p>
+            <p>Premium steel shed construction serving Bendigo, Victoria and surrounding areas.</p>
           </div>
           <div class="footer-section">
-            <h4>Services</h4>
+            <h4>Quick Links</h4>
             <ul>
-              <li>Custom Steel Sheds</li>
-              <li>Agricultural Buildings</li>
-              <li>Commercial Structures</li>
-              <li>Workshop Spaces</li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#areas">Service Areas</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </div>
           <div class="footer-section">
             <h4>Service Areas</h4>
             <ul>
-              <li>Bendigo</li>
-              <li>Castlemaine</li>
-              <li>Kyneton</li>
-              <li>Heathcote</li>
+              <li>Central Bendigo</li>
+              <li>Eaglehawk</li>
+              <li>Kangaroo Flat</li>
+              <li>Strathfieldsaye</li>
             </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p>Bendigo, Victoria 3550</p>
+            <p><a href="mailto:info@bestshedsbendigo.com">info@bestshedsbendigo.com</a></p>
+            <p>Professional Consultation Available</p>
+            <p><strong>Licensed & Insured</strong></p>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2024 Best Sheds Bendigo. All rights reserved. | Licensed Builders | Australian Made Materials</p>
+          <p>&copy; 2024 Best Sheds Bendigo. All rights reserved. | Custom Steel Sheds Bendigo, Victoria</p>
         </div>
       </div>
     </footer>
@@ -288,7 +463,7 @@ document.getElementById('quoteForm').addEventListener('submit', function(e) {
   }
   
   // Simulate form submission
-  alert('Thank you for your quote request! We will contact you within 24 hours to discuss your shed project.')
+  alert('Thank you for your quote request! We will contact you within 24 hours to discuss your shed project in the Bendigo area.')
   this.reset()
 })
 
